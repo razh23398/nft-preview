@@ -1,0 +1,141 @@
+/* tag */
+
+
+body{
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);}
+
+
+a{
+  text-decoration: none;
+  color: #fff;}
+a:hover{
+  color: hsl(178, 100%, 50%);}
+
+
+
+/* class */
+.main{
+  background-color: hsl(216, 50%, 16%);
+  text-align: center;
+  color: #fff;
+  width: 350px;
+  padding: 20px 0 0 0;
+  border-radius: 5%;}
+
+/* container */
+
+.container{
+  position: relative;
+  width: 300px;
+  max-width: 300px;
+  padding: 0 0 0 0;
+}
+
+
+.main-img{
+  width: 100%;
+  height: auto;}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: hsl(178, 100%, 50%);
+}
+.eye{
+  color: #fff;
+  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 0.6;
+}
+
+/* head */
+
+.main h1{
+  font-weight: 600;
+  font-size: 23px;
+  width: 300px;
+  margin: auto;
+  text-align: left;
+  padding: 15px 0 20px 0;}
+
+.main h2{
+  font-weight: 300;
+  font-size: 16px;
+  width: 300px;
+  margin: auto;
+  text-align: left;
+  color: hsl(215, 51%, 70%);
+  padding: 0 0 20px 0;}
+
+.main h3{
+  font-size: 15px;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  text-align: left;
+  padding: 0 0 0 `0;}
+
+.main p{
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);}
+
+
+/* row */
+.row{
+  width: 300px;
+  margin: auto;
+  padding: 10px 0 0 0;}
+
+.col-h3{
+  text-align: left;
+  padding: 0 0 0 0;}
+
+.col-time{
+  text-align: right;
+  padding: 0 0 0 0;}
+
+
+/* hr */
+
+.main hr{
+  position: relative;
+  width: 300px;
+  left: 25px;
+  margin: 0 0 10px 0;
+}
+
+/* footer */
+.avatar{
+  max-width: 35px;
+  border-radius: 100%;
+  border: solid 1px;
+  border-color: #fff;}
+
+
+.footer{
+  margin: 0 0 10px 25px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-text{
+  margin: 0 0 0 10px;
+}
+
+
+/* id */
